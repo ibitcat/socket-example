@@ -14,6 +14,18 @@ close3:
 	$(CC) -g -Wall -o epollserver $@/epollserver.c
 	$(CC) -g -Wall -o epollclient $@/epollclient.c
 
+shutdown1:
+	$(CC) -g -Wall -o epollserver $@/epollserver.c
+	$(CC) -g -Wall -o epollclient $@/epollclient.c
+
+shutdown2:
+	$(CC) -g -Wall -o epollserver $@/epollserver.c
+	$(CC) -g -Wall -o epollclient $@/epollclient.c
+
+shutdown3:
+	$(CC) -g -Wall -o epollserver $@/epollserver.c
+	$(CC) -g -Wall -o epollclient $@/epollclient.c
+
 clear:
 	rm -f epollserver
 	rm -f epollclient
